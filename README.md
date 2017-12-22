@@ -21,3 +21,6 @@ JavaScript library that provides a useful functional programming helpers. Do not
 
 ## Documentation
 - [substr](docs/substr.md)
+
+## Contributing
+You are welcome to contribute and add your own helpers which you are using from project to project.
