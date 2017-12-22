@@ -1,4 +1,4 @@
-var isString = require('./node_modules/lodash/isString');
+var isString = require('lodash/isString');
 
 /**
  * Extracts parts of a string, beginning at the character at the specified position,
@@ -11,7 +11,7 @@ var isString = require('./node_modules/lodash/isString');
  * @category String
  * @param {String} string -  The string to extract.
  * @param {Number} start -  The position where to start the extraction. First character is at index 0.
- * @param {Number} length -  The number of characters to extract. If omitted, it extracts the rest of the string.
+ * @param {Number=} length -  The number of characters to extract. If omitted, it extracts the rest of the string.
  * @returns {String} Returns extract part of a string.
  * @example
  *
