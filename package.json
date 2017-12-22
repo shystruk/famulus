@@ -1,7 +1,7 @@
 {
   "name": "famulus",
   "version": "1.0.2",
-  "description": "JavaScript utility library with custom helpers. Add your own.",
+  "description": "JavaScript library that provides a useful functional programming helpers. Add your own.",
   "main": "famulus.js",
   "repository": "https://github.com/shystruk/famulus.git",
   "keywords": [
