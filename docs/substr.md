@@ -28,6 +28,11 @@ substr('Hello World!', 0, 5)
 ```
 
 ```javascript
+substr({}, 0, 5)
+// => {}
+```
+
+```javascript
 substr('Hello World!', 6)
 // => 'World!'
 ```
