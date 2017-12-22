@@ -18,3 +18,6 @@ JavaScript library that provides a useful functional programming helpers. Do not
 #### Node.js
 `const famulus = require('famulus')`<br>
 `const helper = require('famulus/helper')`
+
+## Documentation
+- [substr](docs/substr.md)
