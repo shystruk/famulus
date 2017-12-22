@@ -1,0 +1,21 @@
+{
+  "name": "famulus",
+  "version": "1.0.0",
+  "description": "JavaScript utility library with custom helpers. Add your own.",
+  "main": "famulus.js",
+  "repository": "https://github.com/shystruk/famulus.git",
+  "keywords": [
+    "utilities",
+    "helpers",
+    "helper"
+  ],
+  "author": {
+    "name": "Vasyl Stokolosa",
+    "email": "v.stokol@gmail.com",
+    "url": "https://github.com/shystruk"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
