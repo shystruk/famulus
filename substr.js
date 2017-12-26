@@ -18,10 +18,10 @@ var isString = require('lodash/isString');
  *
  * @example
  *
- * famulus.substr('Hello World!', 0, 5);
+ * famulus.substr('Hello World!', 0, 5)
  * // => 'Hello'
  *
- * famulus.substr('Hello World!', 6);
+ * famulus.substr('Hello World!', 6)
  * // => 'World!'
  */
 function substr(string, start, length) {

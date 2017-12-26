@@ -17,15 +17,8 @@ var _ = require('lodash/seq');
  *
  * @example
  *
- * famulus.sortAndAddFirstElement([{name:'Bob'}, {name:'Aron'}], 'name', {name:'All'});
+ * famulus.sortAndAddFirstElement([{name:'Bob'}, {name:'Aron'}], 'name', {name:'All'})
  * // => [ {name:'All'}, {name:'Aron'}, {name:'Bob'} ]
- */
-
-/**
- * @param {Array} array
- * @param {String} sortBy
- * @param {*} element
- * @return {Array}
  */
 function sortAndAddFirstElement(array, sortBy, element) {
     return _(array)
