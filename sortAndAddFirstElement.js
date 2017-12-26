@@ -1,4 +1,4 @@
-var _ = require('lodash/seq');
+var _ = require('lodash');
 
 /**
  * Sort an array by the name of existing property and add a first element into array
