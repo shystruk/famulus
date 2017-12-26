@@ -28,7 +28,12 @@ const helper = require('famulus/helper')
 ```
 
 ## Documentation
+### String
 - [substr](docs/substr.md)
+
+
+### Array
+- [sortAndAddFirstElement](docs/sortBy&addFirstElement.md)
 
 ## Contributing
 You are welcome to contribute and add your own helpers which you are using from project to project.
