@@ -35,5 +35,9 @@ const helper = require('famulus/helper')
 ### Array
 - [sortAndAddFirstElement](docs/sortBy&addFirstElement.md)
 
+
+### Date
+- [dateDifference](docs/dateDifference.md)
+
 ## Contributing
 You are welcome to contribute and add your own helpers which you are using from project to project.
