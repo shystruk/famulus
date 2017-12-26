@@ -12,12 +12,20 @@ JavaScript library that provides a useful functional programming helpers. Do not
 
 ## Usage
 #### ES6 module
-`import famulus from 'famulus'`<br>
-`import helper from 'famulus/helper'`
+```javascript
+import famulus from 'famulus'
+```
+```javascript
+import helper from 'famulus/helper'
+```
 
 #### Node.js
-`const famulus = require('famulus')`<br>
-`const helper = require('famulus/helper')`
+```javascript
+const famulus = require('famulus')
+```
+```javascript
+const helper = require('famulus/helper')
+```
 
 ## Documentation
 - [substr](docs/substr.md)
