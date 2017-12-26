@@ -9,10 +9,13 @@ var isString = require('lodash/isString');
  *
  * @since 1.0.0
  * @category String
- * @param {String} string -  The string to extract.
- * @param {Number} start -  The position where to start the extraction. First character is at index 0.
- * @param {Number?} length -  Optional. The number of characters to extract. If omitted, it extracts the rest of the string.
- * @returns {String} Returns extract part of a string.
+ *
+ * @param {String} string -  The string to extract
+ * @param {Number} start -  The position where to start the extraction. First character is at index 0
+ * @param {Number?} length -  Optional. The number of characters to extract. If omitted, it extracts the rest of the string
+ *
+ * @returns {String} Returns extract part of a string
+ *
  * @example
  *
  * famulus.substr('Hello World!', 0, 5);
