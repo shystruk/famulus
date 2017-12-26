@@ -1,5 +1,5 @@
 ## sortAndAddFirstElement(array, sortBy, element)
-[Source](../sortBy&addFirstElement.js)
+[Source](../sortAndAddFirstElement.js)
 
 Sort an array by the name of existing property and add a first element into array
 

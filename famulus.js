@@ -1,5 +1,5 @@
 var substr = require('./substr');
-var sortAndAddFirstElement = require('./sortBy&addFirstElement');
+var sortAndAddFirstElement = require('./sortAndAddFirstElement');
 var dateDifference = require('./dateDifference');
 
 module.exports = {

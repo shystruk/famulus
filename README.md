@@ -33,7 +33,7 @@ const helper = require('famulus/helper')
 
 
 ### Array
-- [sortAndAddFirstElement](docs/sortBy&addFirstElement.md)
+- [sortAndAddFirstElement](docs/sortAndAddFirstElement.md)
 
 
 ### Date
