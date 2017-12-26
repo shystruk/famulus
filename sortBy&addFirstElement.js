@@ -6,7 +6,7 @@ var _ = require('lodash/seq');
  * @customNeeds Sort array by name and add first element.
  * For e.g. user names - [ {name: 'All'}, {name: 'Aron'}, {name: 'Bob'} ]
  *
- * @since 1.1.3
+ * @since 1.1.0
  * @category Array
  *
  * @param {Array} array - The array to sort and add

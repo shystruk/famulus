@@ -8,7 +8,7 @@ Sort array by name and add first element<br>
 For e.g. user names - [ {name: 'All'}, {name: 'Aron'}, {name: 'Bob'} ]
 
 #### Since
-1.1.3
+1.1.0
 
 #### Category 
 Array
