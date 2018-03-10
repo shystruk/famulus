@@ -34,6 +34,7 @@ const helper = require('famulus/helper')
 
 ### Array
 - [sortAndAddFirstElement](docs/sortAndAddFirstElement.md)
+- [isValuesUnique](docs/isValuesUnique.md)
 
 
 ### Date
@@ -41,3 +42,7 @@ const helper = require('famulus/helper')
 
 ## Contributing
 You are welcome to contribute and add your own helpers which you are using from project to project.
+
+## License
+
+MIT © [Vasyl Stokolosa](https://about.me/shystruk)
