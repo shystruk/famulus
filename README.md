@@ -41,7 +41,8 @@ const helper = require('famulus/helper')
 - [dateDifference](docs/dateDifference.md)
 
 ## Contributing
-You are welcome to contribute and add your own helpers which you are using from project to project.
+
+Please read the [Contributions Guidelines](CONTRIBUTING.md) before adding your own helper or improvement to code snippets, explanations, etc.
 
 ## License
 
