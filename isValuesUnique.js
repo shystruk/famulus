@@ -11,7 +11,7 @@ var _uniqBy = require('lodash/uniqBy');
  *
  * @param {Array} array - The array of objects 
  * @param {String} keyName - Name of the object property from an array in which unique will be checking  
-  *
+ *
  * @returns {Boolean} Returns true if values are unique and false if not
  *
  * @example
