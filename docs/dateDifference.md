@@ -1,14 +1,14 @@
-## dateDifference(date, differenceType)
+## dateDifference(date1, date2, differenceType)
 [Source](../dateDifference.js)
 
-Difference between now and date which is passed, in formats 'milliseconds', 'days', 'hours', 'minutes'
+Difference between dates which are passed, in formats 'milliseconds', 'days', 'hours', 'minutes'
 
 #### Custom Needs
 
 #### Since
-1.2.0
+2.0.0
 
-#### Category 
+#### Category
 Date
 
 #### Arguments
@@ -19,29 +19,28 @@ Date
 {Number|Object} Returns the numeric value or object depends on passed differenceType param
 
 #### Example
-Example result for now is Date('12-26-2017')
 
 ```javascript
-dateDifference(new Date('12-20-2017'), 'days')
+dateDifference(new Date('06-20-2018'), new Date('06-26-2018'), 'days')
 // => 6
 ```
 
 ```javascript
-dateDifference(new Date('12-20-2017'), 'hours')
-// => 156
+dateDifference(new Date('06-20-2018'), new Date('06-26-2018'), 'hours')
+// => 144
 ```
 
 ```javascript
-dateDifference(new Date('12-20-2017'), 'minutes')
-// => 9381
+dateDifference(new Date('06-20-2018'), new Date('06-26-2018'), 'minutes')
+// => 8640
 ```
 
 ```javascript
-dateDifference(new Date('12-20-2017'), 'milliseconds')
-// => 555261242
+dateDifference(new Date('06-26-2018'), new Date('06-20-2018'), 'milliseconds')
+// => 518400000
 ```
 
 ```javascript
-dateDifference(new Date('12-20-2017'), 'all')
-// => {days: 6, hours: 12, minutes: 30, milliseconds: 563406381}
+dateDifference(new Date('06-26-2018 10:10'), new Date('06-20-2018 08:00'), 'all')
+// => {days: 6, hours: 2, minutes: 10, milliseconds: 526200000}
 ```

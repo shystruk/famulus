@@ -38,6 +38,7 @@ const helper = require('famulus/helper')
 
 
 ### Date
+- [dateDifferenceFromNow](docs/dateDifferenceFromNow.md)
 - [dateDifference](docs/dateDifference.md)
 
 ## Contributing

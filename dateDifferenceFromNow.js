@@ -1,38 +1,33 @@
 var dates = require('./.internal/dates');
 
 /**
- * Difference between dates which are passed, in formats 'milliseconds', 'days', 'hours', 'minutes'
+ * Difference between now and date which is passed, in formats 'milliseconds', 'days', 'hours', 'minutes'
  *
  * @customNeeds -
  *
  * @since 2.0.0
  * @category Date
  *
- * @param {Date} date1 - The Date for compare
- * @param {Date} date2 - The Date for compare
+ * @param {Date} date - The Date to inspect
  * @param {String} differenceType - [ 'days', 'hours', 'minutes', 'milliseconds', 'all' ]
  *
  * @returns {Number|Object} Returns the numeric value or object depends on passed differenceType param
  *
  * @example
+ * example result for now is new Date('12-26-2017')
  *
- * famulus.dateDifference(new Date('06-20-2018'), new Date('06-26-2018'), 'days')
+ * famulus.dateDifferenceFromNow(new Date('12-20-2017'), 'milliseconds')
+ * // => 555261242
+ *
+ * famulus.dateDifferenceFromNow(new Date('12-20-2017'), 'days')
  * // => 6
  *
- * famulus.dateDifference(new Date('06-20-2018'), new Date('06-26-2018'), 'hours')
- * // => 144
- *
- * famulus.dateDifference(new Date('06-20-2018'), new Date('06-26-2018'), 'minutes')
- * // => 8640
- *
- * famulus.dateDifference(new Date('06-26-2018'), new Date('06-20-2018'), 'milliseconds')
- * // => 518400000
- *
- * famulus.dateDifference(new Date('06-26-2018 10:10'), new Date('06-20-2018 08:00'), 'all')
- * // => {days: 6, hours: 2, minutes: 10, milliseconds: 526200000}
+ * famulus.dateDifferenceFromNow(new Date('12-20-2017'), 'hours')
+ * // => 156
  */
-function dateDifference(date1, date2, differenceType) {
-    var diffMilliseconds = Math.abs(date1 - date2);
+function dateDifferenceFromNow(date, differenceType) {
+    var now = new Date(),
+        diffMilliseconds = Math.abs(date - now);
 
     switch(differenceType) {
         case 'days':
@@ -54,4 +49,4 @@ function dateDifference(date1, date2, differenceType) {
     }
 }
 
-module.exports = dateDifference;
+module.exports = dateDifferenceFromNow;
