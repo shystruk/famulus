@@ -12,7 +12,8 @@ Difference between dates which are passed, in formats 'milliseconds', 'days', 'h
 Date
 
 #### Arguments
-{Date} date             - The Date to inspect<br>
+{Date} date1             - The Date for compare<br>
+{Date} date2             - The Date for compare<br>
 {String} differenceType - [ 'days', 'hours', 'minutes', 'milliseconds', 'all' ]
  
 #### Returns
