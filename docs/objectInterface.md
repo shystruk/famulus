@@ -1,4 +1,4 @@
-## interface(config)
+## objectInterface(config)
 [Source](../objectInterface.js)
 
 Interface for building an object by configuration
