@@ -1,4 +1,4 @@
-## objectInterface(config)
+## objectInterface(config)(object)
 [Source](../objectInterface.js)
 
 Interface for building an object by configuration
@@ -23,7 +23,7 @@ Object
  ```
 
 #### Returns
-{Function}
+{Object}
 
 #### Example
 ```javascript
