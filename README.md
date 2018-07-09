@@ -32,6 +32,10 @@ const helper = require('famulus/helper')
 - [substr](docs/substr.md)
 
 
+### Object
+- [objectInterface](docs/objectInterface.md)
+
+
 ### Array
 - [sortAndAddFirstElement](docs/sortAndAddFirstElement.md)
 - [isValuesUnique](docs/isValuesUnique.md)
