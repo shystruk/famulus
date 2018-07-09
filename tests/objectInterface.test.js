@@ -1,7 +1,7 @@
 import test from 'ava';
 import objectInterface from './../objectInterface';
 
-const result = {body: "Hello world!", count: 1, sender: "Vasyl Stokolosa", isRead: false, created: 1528527600000};
+const result = {body: "Hello world!", count: 1, sender: "Vasyl Stokolosa", isRead: false, created: 1528268400000};
 
 test('module should be a function', t => {
     t.is(typeof objectInterface, 'function');
@@ -9,7 +9,7 @@ test('module should be a function', t => {
 
 test('should return object based on interface configuration', t => {
     let email = objectInterface([
-        'body', 'count/1', 'sender|this.firstName + " " + this.lastName', 'isRead: false', 'created: Date.parse("06-09-2018")'
+        'body', 'count/1', 'sender|this.firstName + " " + this.lastName', 'created: Date.parse("06-06-2018")', 'isRead: false'
     ]);
 
     t.deepEqual(email({

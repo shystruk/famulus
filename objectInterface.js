@@ -24,11 +24,6 @@
  * // => {body: "Hello world!", count: 1, created: Mon Jul 09 2018 10:31:08, isRead: false, sender: "Vasyl Stokolosa"}
  */
 function objectInterface(config) {
-
-    /**
-     * @param {Object} obj
-     * @returns {Object} - object with keys from config
-     */
     return function(obj) {
         var result = {};
 
