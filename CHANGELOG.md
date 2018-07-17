@@ -1,6 +1,6 @@
 ## 2.1.0 (July 9, 2018)
 
-* Added [objectInterface](docs/objectInterface.md)
+* Added [objectInterface](docs/objectInterface.md) (in [#2](https://github.com/shystruk/famulus/pull/2))
 
 
 ## 2.0.0 (June 26, 2018)
