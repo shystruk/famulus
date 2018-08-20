@@ -17,9 +17,9 @@ If do not, open a [new one](https://github.com/shystruk/famulus/issues/new).
 ## Add your own helper
 
 - Please take for example helper **isValuesUnique.js**
-- Create [helper_name].js file in the root folder
-- In docs folder create [helper_name].md file and fill in data keeping the structure
-- In tests folder create [helper_name].test.js file and cover the helper by unit tests and much as possible
+- Create *[helper_name].js* file in the root folder
+- In docs folder create *[helper_name].md* file and fill in data keeping the structure
+- In tests folder create *[helper_name].test.js* file and cover the helper by unit tests and much as possible
 - In famulus.js file import and export already created helper
 - In documentation section at README.md file add the helper to a specific category. If the category does not exist add the new one
 - Before submitting a PR please check *Submitting a pull request* section below
