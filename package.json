@@ -1,6 +1,6 @@
 {
   "name": "famulus",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "JavaScript library that provides a useful functional programming helpers. Add your own.",
   "main": "famulus.js",
   "repository": "https://github.com/shystruk/famulus.git",
