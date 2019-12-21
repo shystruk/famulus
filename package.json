@@ -1,6 +1,6 @@
 {
   "name": "famulus",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "JavaScript library that provides a useful functional programming helpers. Add your own.",
   "main": "famulus.js",
   "repository": "https://github.com/shystruk/famulus.git",
@@ -21,7 +21,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.15"
   },
   "devDependencies": {
     "ava": "^0.24.0",
