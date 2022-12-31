@@ -24,7 +24,7 @@
     "lodash": "^4.17.20"
   },
   "devDependencies": {
-    "ava": "^0.24.0",
+    "ava": "^5.1.0",
     "codecov.io": "^0.1.6",
     "nyc": "^11.4.1"
   }
